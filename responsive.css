@@ -1,0 +1,355 @@
+@media(max-width:1199px) {
+    .navbar-expand-lg ul li {
+        margin-right: 30px;
+        font-weight: 500;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .heading {
+        padding-right: 26%;
+    }
+
+    .heading h1 {
+        font-size: 58px;
+    }
+
+    .intro {
+        margin: 0;
+    }
+
+    .sec1 p {
+
+        font-size: 17px;
+        margin-top: 11px;
+    }
+
+    .intro-text .ptext {
+        font-size: 16px;
+        margin-top: 21px;
+    }
+
+    .miss-text {
+        margin: 16px 0;
+    }
+
+    .miss-text p {
+        margin-top: 29px;
+        font-size: 16px;
+    }
+
+    .erea-text h2 {
+        font-size: 36px;
+        line-height: 35.1px;
+        padding: 40px 0;
+    }
+
+    .erea-text h2 {
+        font-size: 36px;
+        line-height: 26.1px;
+        padding: 34px 0;
+    }
+
+    .erea-box {
+        height: 94%;
+        padding: 35px 0;
+    }
+
+    .erea-box h3 {
+        font-size: 22px;
+        font-weight: 400;
+        padding: 17px 0;
+    }
+
+    .butt {
+        margin-top: 35px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-expand-lg ul li {
+        margin-right: 0;
+    }
+
+    .navbar-expand-lg ul li:last-child {
+        display: none;
+    }
+
+    .heading {
+        padding-right: 0%;
+    }
+
+    .sec1 h1 {
+        margin-top: 10px;
+        font-size: 33px;
+        line-height: 38.1px;
+    }
+
+    .sec1 p {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    .intro-text .ptext {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .miss-text h2 {
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .miss-text p {
+        margin-top: 17px;
+        font-size: 15px;
+    }
+
+    .erea-text h2 {
+        font-size: 30px;
+        line-height: 21.1px;
+        padding: 19px 0;
+    }
+
+    .erea-box h3 {
+        font-size: 21px;
+        font-weight: 400;
+        padding: 15px 0;
+    }
+
+    .sec2 p {
+        font-size: 15px;
+        color: #878787;
+        padding-top: 26px;
+        margin: 0 20px;
+    }
+
+    .butt button {
+        padding: 16px 50px;
+    }
+
+    .num-text {
+        padding-right: 24%;
+    }
+
+    .num-text2 {
+        padding-left: 24%;
+    }
+}
+
+@media(max-width:768px) {
+    .heading h1 {
+        font-size: 56px;
+    }
+
+    .sec1 p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .intro-img {
+        width: 100%;
+    }
+
+    .intro-text .ptext {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+
+    .miss-text p {
+        margin-top: 17px;
+        font-size: 13px;
+    }
+
+    .sec2 {
+        background-size: 506px;
+    }
+
+    .sec2 h2 {
+        font-size: 25px;
+        padding-top: 80px;
+    }
+
+    .sec2 p {
+        font-size: 13px;
+    }
+
+    .butt button {
+        padding: 14px 40px;
+    }
+
+    .num-text {
+        padding-right: 0%;
+    }
+
+    .num-text2 {
+        padding-left: 0%;
+        margin: 23px 0;
+    }
+
+    .num2 {
+        width: 100%;
+        margin: 23px 0;
+    }
+
+    .line::before {
+
+        height: 75%;
+    }
+
+    .sec3 {
+        background-size: 510px;
+    }
+
+    .sec3 h2 {
+        font-size: 25px;
+        padding-top: 55px;
+    }
+
+    .sec3 p {
+        font-size: 13px;
+    }
+
+
+    .icon h3 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .heading h1 {
+        font-size: 54px;
+        padding: 0 20px;
+    }
+
+    .heading p {
+        font-size: 13px;
+        padding: 0 20px;
+    }
+
+    .line::before {
+        position: absolute;
+        content: "";
+        height: 79%;
+        width: 2px;
+        background-color: #878787;
+        left: 3%;
+        top: 9%;
+    }
+
+    .num img {
+        float: none;
+    }
+
+    .num::before {
+        right: 0px;
+        left: 1px;
+    }
+
+    .num {
+        width: 100%;
+        margin: 30px 0;
+        padding-left: 45px;
+    }
+
+    .num-text {
+        margin: 30px 0;
+        padding-left: 35px;
+    }
+
+    .num-text::before {
+        left: 8px;
+        top: -128px;
+    }
+    .num2 {
+        padding-left: 44px;
+    }
+    .num2::before {
+        left: 6px;
+        top: 7px;
+    }
+    .num-text2::before {
+        right: 0;
+        left: -1px;
+        bottom: -80px;
+    }
+    .num-text2 {
+        padding-left: 7%;
+        margin: 23px 0;
+    }
+    .line::before {
+        height: 88%;
+        left: 3%;
+        top: 4%;
+    }
+
+}
+@media(max-width:425px){
+    .sec2 {
+        background-size: 370px;
+    }
+    .sec2 h2 {
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    .sec2 p {
+        font-size: 10px;
+    }
+    .butt button {
+        padding: 12px 30px;
+    }
+    .num::before {
+        right: 0px;
+        left: -2px;
+    }
+    .num-text::before {
+        left: 5px;
+        top: -128px;
+    }
+    .num-text2::before {
+        right: 0;
+        left: -2px;
+        bottom: -80px;
+    }
+    .num2::before {
+        left: 5px;
+        top: 7px;
+    }
+    .sec3 {
+        background-size: 370px;
+    }
+    .sec3 h2 {
+        font-size: 20px;
+        padding-top: 55px;
+    }
+    .sec3 p {
+        font-size: 10px;
+    }
+    .num-text h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .num-text p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .num-text2 h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .num-text2 p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .num-text2 {
+        padding-left: 9%;
+        margin: 23px 0;
+    }
+    .sec1 h1 {
+        font-size: 25px;
+    }
+}
